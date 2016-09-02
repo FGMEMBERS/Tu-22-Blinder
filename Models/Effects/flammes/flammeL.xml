@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>flammes.ac</path>
+
+  <animation>
+    <object-name>ReheatInner</object-name>
+    <object-name>ReheatOuter</object-name>
+    <object-name>ExternalFlame</object-name>
+  </animation>
+
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <condition>
+     <property>/sim/rendering/rembrandt/enabled</property>
+    </condition>
+    <object-name>ReheatInner</object-name>
+    <object-name>ReheatOuter</object-name>
+    <object-name>ExternalFlame</object-name>   
+  </effect>
+
+  <animation>
+    <type>select</type>
+    <object-name>ReheatInner</object-name>
+    <object-name>ReheatOuter</object-name>
+    <object-name>ExternalFlame</object-name>
+    <condition>
+      <greater-than>
+        <!-- /controls/engines/engine{0]/throttle -->
+        <property>sim/multiplay/generic/float[6]</property>
+        <value>0.2</value>
+      </greater-than>
+    </condition>
+  </animation>
+ 
+  <animation>
+    <type>scale</type>
+    <object-name>ExternalFlame</object-name>
+    <!-- /controls/engines/engine{0]/throttle -->
+    <property>sim/multiplay/generic/float[6]</property>
+    <x-min>0.2</x-min>
+    <y-min>0.9</y-min>
+    <z-min>0.9</z-min>
+    <x-factor>1.30</x-factor>
+    <y-factor>0.25</y-factor>
+    <z-factor>0.25</z-factor>
+  </animation>
+ 
+  <animation>
+    <object-name>ExternalFlame</object-name>
+    <type>spin</type>
+    <!-- engines/engine[0]/n1 -->
+    <property>sim/multiplay/generic/float[14]</property>
+    <factor> 240 </factor>
+    <axis>
+     <x> 1 </x>
+     <y> 0 </y>
+     <z> 0 </z>
+    </axis>
+  </animation>
+ 
+  <animation>
+    <type>spin</type>
+    <object-name>ReheatOuter</object-name>
+    <object-name>ReheatInner</object-name>
+    <!-- engines/engine[0]/n1 -->
+    <property>sim/multiplay/generic/float[14]</property>
+    <factor> 437 </factor>
+    <axis>
+     <x> -1 </x>
+     <y>  0 </y>
+     <z>  0 </z>
+    </axis>
+  </animation>
+ 
+  <animation>
+    <type>material</type>
+    <object-name>ReheatInner</object-name>
+    <emission>
+      <red> 1 </red>
+      <!-- /controls/engines/engine{0]/throttle -->
+      <green-prop>sim/multiplay/generic/float[6]</green-prop>
+      <blue-prop>sim/multiplay/generic/float[6]</blue-prop>
+      <factor-prop>sim/multiplay/generic/float[6]</factor-prop>
+    </emission>
+  </animation>
+ 
+  <animation>
+    <type>material</type>
+    <object-name>ReheatOuter</object-name>
+    <object-name>ExternalFlame</object-name>
+    <emission>
+      <red>   2 </red>
+      <green> 2 </green>
+      <blue>  2 </blue>
+      <!-- /controls/engines/engine{0]/throttle -->
+      <factor-prop>sim/multiplay/generic/float[6]</factor-prop>
+    </emission>
+  </animation>
+
+</PropertyList>

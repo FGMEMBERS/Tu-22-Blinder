@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+    <object-name>panel2</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- ARCHS -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/achs/achs.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.250 </y-m>
+      <z-m> 0.080 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ADF -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/ADF/adf.xml</path>
+    <offsets>
+      <x-m> 0.003 </x-m>
+      <y-m> 0.056 </y-m>
+      <z-m> 0.215 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m>  0.003 </x-m>
+      <y-m> -0.080 </y-m>
+      <z-m>  0.220 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/ai2/ai2.xml</path>
+    <offsets>
+      <x-m> 0.003 </x-m>
+      <y-m> 0.080 </y-m>
+      <z-m> 0.090 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.180 </y-m>
+      <z-m>  0.080 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.080 </y-m>
+      <z-m>  0.080 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- AT -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/at/at.xml</path>
+    <offsets>
+      <x-m>  0.044 </x-m>
+      <y-m> -0.305 </y-m>
+      <z-m> -0.315 </z-m>
+      <pitch-deg> -66 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- COM-1 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/com/com-1.xml</path>
+    <offsets>
+      <x-m>  0.047 </x-m>
+      <y-m>  0.280 </y-m>
+      <z-m> -0.312 </z-m>
+      <pitch-deg> -66 </pitch-deg>
+    </offsets>
+  </model>
+  
+  <!-- IDR -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/idr/idr.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.320 </y-m>
+      <z-m> -0.080 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- PSP -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/psp/psp.xml</path>
+    <offsets>
+      <x-m>  0.003 </x-m>
+      <y-m> -0.234 </y-m>
+      <z-m> -0.225 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- RPM N1/N2 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/rpm/rpmL.xml</path>
+    <offsets>
+      <x-m>  0.00 </x-m>
+      <y-m> -0.18 </y-m>
+      <z-m> -0.03 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/rpm/rpmR.xml</path>
+    <offsets>
+      <x-m>  0.00 </x-m>
+      <y-m> -0.08 </y-m>
+      <z-m> -0.03 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.080 </y-m>
+      <z-m> -0.130 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- UAP -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/uap/uap.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.180 </y-m>
+      <z-m> 0.180 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- UIZ -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/uiz/uiz-1.xml</path>
+    <offsets>
+      <x-m> -0.001 </x-m>
+      <y-m>  0.195 </y-m>
+      <z-m> -0.028 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/uiz/uiz-2.xml</path>
+    <offsets>
+      <x-m> -0.001 </x-m>
+      <y-m>  0.306 </y-m>
+      <z-m> -0.028 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- UT-7A -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/ut/ut7a-1.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.195 </y-m>
+      <z-m> -0.143 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/ut/ut7a-2.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.306 </y-m>
+      <z-m> -0.143 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- UVID 15M -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/uvid-15/uvid-15m-little.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.080 </y-m>
+      <z-m> -0.023 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.200 </y-m>
+      <z-m>  0.180 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ENGINES WARNING -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/Warnings/engines.xml</path>
+    <offsets>
+      <x-m>  0.00 </x-m>
+      <y-m>  0.08 </y-m>
+      <z-m> -0.23 </z-m>
+    </offsets>
+  </model>
+
+  <!-- AP WARNING -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Interior/Panel/Instruments/Warnings/ap.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.350 </y-m>
+      <z-m> -0.190 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>
