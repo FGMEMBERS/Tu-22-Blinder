@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList>
+
+  <sim include="views.xml">
+
+    <startup>
+      <splash-texture>Aircraft/Tu-22-Blinder/tu22-splash.png</splash-texture>
+    </startup>
+
+    <sound>
+      <path archive="y">Aircraft/Tu-22-Blinder/Sounds/tu22-sound.xml</path>
+    </sound>
+
+    <model>
+      <path>Aircraft/Tu-22-Blinder/Models/tu22.xml</path>
+      <livery>
+        <file type="string">default</file>
+        <noze>1</noze>
+      </livery>
+    </model>
+    
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic> 
+        <int   n="0"  type="int">0</int>                                        <!--  0 immat -->
+        <int   n="1"  type="int">0</int>                                        <!--  1 immat -->
+        <int   n="2"  type="int">0</int>                                        <!--  2 immat -->
+        <int   n="3"  type="int">0</int>                                        <!--  3 immat -->
+        <int   n="4"  type="int">0</int>                                        <!--  4 immat -->
+        <int   n="5"  type="int">0</int>                                        <!--  5 immat -->
+        <int   n="8"  type="int" alias="/sim/model/Livery/noze">1</int>         <!--  8 Noze type -->
+        <float n="0"  alias="/instrumentation/doors/crew/position-norm"/>
+        <float n="1"  alias="/instrumentation/doors/passenger/position-norm"/>
+        <float n="2"  alias="/position/gear-agl-m">0</float>                    <!--  2 altitude for MP shadow -->
+        <float n="3"  alias="/position/altitude-ft">0</float>                   <!--  3 altitude for smoke -->
+        <float n="4"  alias="/engines/engine[0]/n2"/>
+        <float n="5"  alias="/engines/engine[1]/n2"/>
+        <float n="6"  alias="/controls/engines/engine[0]/throttle"/>
+        <float n="7"  alias="/controls/engines/engine[1]/throttle"/>
+        <float n="8"  alias="/gear/gear[0]/wow/"/>
+        <float n="9"  alias="/gear/gear[1]/wow/"/>
+        <float n="10" alias="/gear/gear[2]/wow/"/>
+        <float n="11" alias="/gear/gear[0]/rollspeed-ms"/>
+        <float n="12" alias="/gear/gear[1]/rollspeed-ms"/>
+        <float n="13" alias="/gear/gear[2]/rollspeed-ms"/>
+        <float n="14" alias="/engines/engine[0]/n1"/>
+        <float n="15" alias="/engines/engine[1]/n1"/>
+        <!-- For Bombable -->
+        <int type="int" n="10" alias="controls/armament/trigger">0</int>
+        <string n="9" type="string"/>
+      </generic>
+    </multiplay>
+
+    <help include="help.xml"/>
+
+    <menubar include="../Dialogs/tu22-menu.xml"/>
+
+    <systems include="systems.xml"/>
+    
+    <instrumentation include="instrumentation.xml"/>
+    
+    <flaps include="flaps.xml"/>
+    
+  </sim>
+  
+  <input include="tu22-keyboard.xml"/>
+  
+  <controls include="controls.xml"/>
+ 
+  <systems>
+    <refuel>
+      <type type="string">probe</type>
+    </refuel>
+  </systems>
+  
+  <nasal>
+    <doors>
+      <file>Aircraft/Tu-22-Blinder/Nasal/doors.nas</file>
+    </doors>
+    <tu22>
+      <file>Aircraft/Tu-22-Blinder/Nasal/light.nas</file>
+      <file>Aircraft/Tu-22-Blinder/Nasal/liveries.nas</file>
+      <file>Aircraft/Tu-22-Blinder/Nasal/altimeter.nas</file>
+<!--  <file>Aircraft/Tu-22-Blinder/Nasal/immat.nas</file> -->
+    </tu22>
+    <instruments>
+      <file>Aircraft/Tu-22-Blinder/Nasal/idr.nas</file>
+    </instruments>
+    <engines>
+      <file>Aircraft/Tu-22-Blinder/Nasal/generic-yasim-engine.nas</file>
+      <file>Aircraft/Tu-22-Blinder/Nasal/engines-yasim.nas</file>
+    </engines>
+  </nasal>
+   
+</PropertyList>
