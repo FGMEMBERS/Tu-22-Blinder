@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<PropertyList>
+
+  <!-- Tuyere 01 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m> 0.00000 </x-m>
+      <y-m> 0.00000 </y-m>
+      <z-m> 0.63203 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Tuyere 02 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m>  0.00000 </x-m>
+      <y-m> -0.24449 </y-m>
+      <z-m>  0.57598 </z-m>
+      <roll-deg> 23 </roll-deg>
+    </offsets>
+  </model>
+
+  <!-- Tuyere 03 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m>  0.00000 </x-m>
+      <y-m> -0.44691 </y-m>
+      <z-m>  0.44691 </z-m>
+      <roll-deg> 45 </roll-deg>
+    </offsets>
+  </model>
+
+  <!-- Tuyere 04 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m>  0.00000 </x-m>
+      <y-m> -0.58016 </y-m>
+      <z-m>  0.23440 </z-m>
+      <roll-deg> 68 </roll-deg>
+    </offsets>
+  </model>
+
+  <!-- Tuyere 05 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m>  0.00000 </x-m>
+      <y-m> -0.63203 </y-m>
+      <z-m>  0.00000 </z-m>
+      <roll-deg> 90 </roll-deg>
+    </offsets>
+  </model>
+
+  <!-- Tuyere 06 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m>  0.00000 </x-m>
+      <y-m> -0.58016 </y-m>
+      <z-m> -0.23440 </z-m>
+      <roll-deg> 113 </roll-deg>
+    </offsets>
+  </model>
+
+  <!-- Tuyere 07 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m>  0.00000 </x-m>
+      <y-m> -0.44691 </y-m>
+      <z-m> -0.44691 </z-m>
+      <roll-deg> 135 </roll-deg>
+    </offsets>
+  </model>
+
+  <!-- Tuyere 08 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m>  0.00000 </x-m>
+      <y-m> -0.24449 </y-m>
+      <z-m> -0.57598 </z-m>
+      <roll-deg> 158 </roll-deg>
+    </offsets>
+  </model>
+
+  <!-- Tuyere 09 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m>  0.00000 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m> -0.63203 </z-m>
+      <roll-deg> 180 </roll-deg>
+    </offsets>
+  </model>
+
+  <!-- Tuyere 10 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m>  0.00000 </x-m>
+      <y-m>  0.24449 </y-m>
+      <z-m> -0.57598 </z-m>
+      <roll-deg> 203 </roll-deg>
+    </offsets>
+  </model>
+
+  <!-- Tuyere 11 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m>  0.00000 </x-m>
+      <y-m>  0.44691 </y-m>
+      <z-m> -0.44691 </z-m>
+      <roll-deg> 225 </roll-deg>
+    </offsets>
+  </model>
+
+  <!-- Tuyere 12 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m>  0.00000 </x-m>
+      <y-m>  0.58016 </y-m>
+      <z-m> -0.23440 </z-m>
+      <roll-deg> 248 </roll-deg>
+    </offsets>
+  </model>
+
+  <!-- Tuyere 13 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m> 0.00000 </x-m>
+      <y-m> 0.63203 </y-m>
+      <z-m> 0.00000 </z-m>
+      <roll-deg> 270 </roll-deg>
+    </offsets>
+  </model>
+
+  <!-- Tuyere 14 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m> 0.00000 </x-m>
+      <y-m> 0.58016 </y-m>
+      <z-m> 0.23440 </z-m>
+      <roll-deg> 293 </roll-deg>
+    </offsets>
+  </model>
+
+  <!-- Tuyere 15 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m> 0.00000 </x-m>
+      <y-m> 0.44691 </y-m>
+      <z-m> 0.44691 </z-m>
+      <roll-deg> 315 </roll-deg>
+    </offsets>
+  </model>
+
+  <!-- Tuyere 14 -->
+  <model>
+    <path>Aircraft/Tu-22-Blinder/Models/Exhausts/exhaustR.xml</path>
+    <offsets>
+      <x-m> 0.00000 </x-m>
+      <y-m> 0.24449 </y-m>
+      <z-m> 0.57598 </z-m>
+      <roll-deg> 338 </roll-deg>
+    </offsets>
+  </model>
+
+</PropertyList>
