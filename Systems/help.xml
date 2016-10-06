@@ -2,27 +2,7 @@
 
 <PropertyList>
 
-  <title>Tu 134</title>
+  <title>Tu 22 Blinder</title>
   <line>______________________________________________</line>
-  <key>
-    <name>d</name>
-    <desc>Open/Close door</desc>
-  </key>
-  <key>
-    <name>j</name>
-    <desc>Spoiler down</desc>
-  </key>
-  <key>
-    <name>k</name>
-    <desc>Spoiler up</desc>
-  </key>
-  <key>
-    <name>DELETE</name>
-    <desc>reverse thrust</desc>
-  </key>
-  <key>
-    <name>l</name>
-    <desc>Landing light On/Off</desc>
-  </key>
   
 </PropertyList>
